@@ -1,6 +1,6 @@
 site:
   name: ContextOps AI 
-  site: 'https://ContextOps.vercel.app'
+  site: 'https://blog.contextops.ai'
   base: '/'
   trailingSlash: false
 
