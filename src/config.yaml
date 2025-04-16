@@ -11,7 +11,7 @@ metadata:
   title:
     default: ContextOps
     template: '%s — ContextOps'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Explore the latest insights and innovations in AI-driven context operations, empowering businesses to optimize processes and enhance decision-making."
   robots:
     index: true
     follow: true
