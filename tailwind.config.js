@@ -13,6 +13,12 @@ export default {
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
       },
+      fontSize: {
+        base: '1.0rem', // Base font size
+        h1: '1.45rem', // Adjust the font size for h1
+        h2: '1.25rem', // Adjust the font size for h2
+        h3: '1.10rem', // Adjust the font size for h3
+      },
       fontFamily: {
         sans: ['var(--aw-font-sans, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
         serif: ['var(--aw-font-serif, ui-serif)', ...defaultTheme.fontFamily.serif],
