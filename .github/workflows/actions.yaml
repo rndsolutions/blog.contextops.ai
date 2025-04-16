@@ -1,41 +1,48 @@
-name: GitHub Actions
+name: Deploy to GitHub Pages
 
 on:
-  pull_request:
-    branches:
-      - main
   push:
     branches:
-      - main
+      - main  # Set this to your default branch
+permissions:
+  id-token: write
+  contents: read
+  pages: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version:
-          - 18
-          - 20
-          - 22
-    steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js v${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-      # - run: npm test
 
-  check:
-    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js 22
-        uses: actions/setup-node@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 22
-          cache: npm
-      - run: npm ci
-      - run: npm run check
+          node-version: '20.18.1'  # Use the version of Node.js your project requires
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Astro Starlight project
+        run: npm run build
+
+      - name: Verify build contents
+        run: ls -R ./dist
+
+      - name: Upload build artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist 
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: 
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
