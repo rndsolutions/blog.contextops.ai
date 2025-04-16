@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-07-17T00:00:00Z
 title: Enhancing AI Integrations ContextOps and the Model Context Protocol.
-excerpt: While easy to get started, Astrowind is quite complex internally.  This page provides documentation on some of the more intricate parts.
+excerpt: As artificial intelligence (AI) continues to permeate various industries, the need for seamless integration between AI models and diverse data sources becomes increasingly critical. Traditional approaches often involve bespoke solutions, resulting in fragmented systems and significant maintenance overhead. Enter ContextOps—a modern paradigm centered on managing and preserving context within AI workflows.
 image: https://images.unsplash.com/photo-1534307671554-9a6d81f4d629?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1651&q=80
 category: Documentation
 draft: false

@@ -38,34 +38,26 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },        
-        { text: 'Customer stories', href: '#' },        
-        { text: 'Resources', href: '#' },
+        { text: 'Features', href: '#' }                 
       ],
     },
     {
-      title: 'Platform',
-      links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-      ],
+      // title: 'Platform',
+      // links: [            
+      //   { text: 'Atom', href: '#' },
+      //   { text: 'Electron', href: '#' },
+      // ],
     },
     {
       title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' }
+      links: [        
+        { text: 'Discord', href: 'https://discord.com/invite/RNa7nds8' }
       ],
     },
     {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
-
       ],
     },
   ],
@@ -74,8 +66,7 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/radoslavminchev' },    
 
   ],
   footNote: `
