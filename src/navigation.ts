@@ -57,7 +57,7 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'About', href: 'https://www.contextops.ai' },
       ],
     },
   ],
