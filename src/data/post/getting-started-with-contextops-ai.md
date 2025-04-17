@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with ContextOps.ai"
+title: "Getting Started"
 slug: "getting-started-with-contextops-ai"
 date: "2025-04-17"
 author: "Your Name"
@@ -20,9 +20,18 @@ Right now, we're rolling out our features to a select group of eager users who a
 
 ## Exploring the ContextOps AI
 
-Once you're logged in, take a moment to explore the following features:
+Once you're logged in, take a moment to check out the user interface. If you've used Chat GPT before, you'll find it super familiar and easy to navigate. Feel free to dive in and start asking questions or engaging in conversations!
+
+Here's what you can do:
+- Chat with the ContextOps Assistant by clicking the headphone icon. You might need to give your browser permission to use your microphone.
+- Type in anything you're curious about and hit Enter.
+- You can also record a voice message and send it to the ContextOps AI Assistant. It'll transcribe your message into text and submit your question to the Assistant.
+
+In the left top corner you can see your **Workspace**, it's basically your working enviroment where you can organize your knowlege, prompts and chats with the assitant
+Hitting the pencil icon in the top let corner will open a new chat wtiht the assistant, you can drag and drop chat and organize them in folders.
 
 ![Exploring ContextOps AI](public/getting-started.png)
+
 
 ### Engage in chat conversation 
 
