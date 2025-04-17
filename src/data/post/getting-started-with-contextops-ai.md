@@ -9,7 +9,7 @@ author: Rado Minchev
 avatarUrl: ""
 image: "../../assets/images/cover-img.png"
 company: RND Solutions
-
+excerpt: Welcome to ContextOps.ai! This guide is here to help you get started with our platform, giving you the essential steps to begin leveraging the power of our context-driven AI Assistant. We're still in development, but we've got some cool things to show and talk about :). We're working tirelessly to add more integrations that fit various use cases.
 tags:
   - contextops
   - mcp
@@ -30,7 +30,6 @@ metadata:
     - [Let's chat with GitHub](#lets-chat-with-github)
 - [Conclusion](#conclusion)
 
-Welcome to ContextOps.ai! This guide is here to help you get started with our platform, giving you the essential steps to begin leveraging the power of our context-driven AI Assistant. We're still in development, but we've got some cool things to show and talk about :). We're working tirelessly to add more integrations that fit various use cases.
 
 ContextOps.ai is designed to streamline your operations by providing context-aware AI Assistants that adapt to your specific needs. Whether you're looking to automate workflows, enhance decision-making, or improve efficiency, ContextOps.ai has got your back. We believe that chat and voice interfaces are the new way of doing things, and we want to enable you—our users—to benefit from this movement and be more productive in your day-to-day lives.
 
