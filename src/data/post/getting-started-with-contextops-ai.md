@@ -1,9 +1,20 @@
 ---
-title: "Getting Started"
+title: "Getting Started with ContentOps.ai"
 slug: "getting-started-with-contextops-ai"
 date: "2025-04-17"
-author: "Your Name"
-tags: ["contextops", "getting started", "guide"]
+category: Documentation
+draft: false
+author: Rado Minchev
+avatarUrl: ""
+image: ""
+company: RND Solutions
+tags:
+  - contextops
+  - mcp
+  - AI
+  - agents
+metadata:
+  canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
 
 Welcome to ContextOps.ai! This guide will help you get started with our platform, providing you with the essential steps to begin leveraging the power of context-driven AI Assistant operations.
