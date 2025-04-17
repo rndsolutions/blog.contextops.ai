@@ -1,4 +1,5 @@
 ---
+
 title: "Getting Started with ContentOps.ai"
 slug: "getting-started-with-contextops-ai"
 date: "2025-04-17"
@@ -6,7 +7,7 @@ category: Documentation
 draft: false
 author: Rado Minchev
 avatarUrl: ""
-image: ""
+image: "../../assets/images/getting-started.png"
 company: RND Solutions
 tags:
   - contextops
