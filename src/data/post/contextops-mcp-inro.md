@@ -17,7 +17,6 @@ metadata:
   canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
 
-# Enhancing AI Integrations: ContextOps and the Model Context Protocol (MCP)
 
 ## Introduction 🤖✨
 
