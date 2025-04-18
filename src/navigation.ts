@@ -3,6 +3,13 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
+      text: 'Home',
+      href: "https://contextops.ai/",
+    },
+    {
+      text: 'Sign Up',
+      href: "https://demo.contextops.ai/",    
+
       // text: 'Blog',
       // href: getBlogPermalink(),
 
@@ -34,41 +41,42 @@ export const headerData = {
 };
 
 export const footerData = {
-  links: [
-    {
-      title: 'Product',
-      links: [
-        { text: 'Features', href: '#' }                 
-      ],
-    },
-    {
-      // title: 'Platform',
-      // links: [            
-      //   { text: 'Atom', href: '#' },
-      //   { text: 'Electron', href: '#' },
-      // ],
-    },
-    {
-      title: 'Support',
-      links: [        
-        { text: 'Discord', href: 'https://discord.com/invite/RNa7nds8' }
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: 'https://www.contextops.ai' },
-      ],
-    },
-  ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
-  socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/radoslavminchev' },    
+  // links: [
+  //   {
+  //     title: 'Product',
+  //     links: [
+  //       { text: 'Features', href: '#' }                 
+  //     ],
+  //   },
+  //   {
+  //     // title: 'Platform',
+  //     // links: [            
+  //     //   { text: 'Atom', href: '#' },
+  //     //   { text: 'Electron', href: '#' },
+  //     // ],
+  //   },
+  //   {
+  //     title: 'Support',
+  //     links: [        
+  //       { text: 'Discord', href: 'https://discord.com/invite/RNa7nds8' }
+  //     ],
+  //   },
+  //   {
+  //     title: 'Company',
+  //     links: [
+  //       { text: 'About', href: 'https://www.contextops.ai' },
+  //     ],
+  //   },
+  // ],
 
-  ],
+  // secondaryLinks: [
+  //   { text: 'Terms', href: getPermalink('/terms') },
+  //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
+  // ],
+  // socialLinks: [
+  //   { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/radoslavminchev' },    
+
+  // ],
   footNote: `
     ContextOps AI @ 2025. All rights reserved.
   `,
